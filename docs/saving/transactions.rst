@@ -97,3 +97,6 @@ The following example, shows how to perform an ADO.NET SqlClient operation and a
         :lines: 21-53
         :emphasize-lines: 4, 10, 21, 26-28
         :linenos:
+
+.. tip::
+  In previous versions of Entity Framework you could wrap your code in a ``TransactionScope`` to enable transactions. This is not supported in Entity Framework Core 1.0 because ambient transactions are not supported.
